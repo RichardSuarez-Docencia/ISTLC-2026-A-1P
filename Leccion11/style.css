@@ -1,0 +1,31 @@
+h1, h2, p{
+    color: white;
+}
+
+/*body{
+  background-image: url('lion-amazing-background-hd-wallpaper-photo.jpeg'), url('pngtree-ai-art-1080p-2k-4k-5k-hd-wallpapers-free-download-background-image_15893972.jpg'); background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom; 
+  background-size: 50%, 50%;  
+}*/
+
+body{
+    background: radial-gradient(circle, #427e6a ,#7e7242 );
+}
+
+html, body{
+    height: 100%;
+}
+
+p{
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px #000000;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    text-indent: 30px;
+    line-height: 3;
+    white-space: nowrap;
+}
+
+a{
+    text-decoration: none;
+}

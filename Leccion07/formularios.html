@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Registro de Usuario</h1>
+    
+    <form method="post">
+        <fieldset>
+            <legend>Registro de Usuario</legend>
+
+            <label for="nombre">Nombre: </label> <input value="JUAN" placeholder="Escriba aquì su nombre" name="nombre" id="nombre" type="text" required maxlength="10" minlength="3">
+            <br>
+            <label for="apellido">Apellido: </label> <input value="PEREZ" placeholder="Escriba aqui su apellido" name="apellido" id="apellido" type="text" required>
+            <br>
+            <label for="edad">Edad: </label> <input step="10" type="number" name="edad" id="edad" min="1" max="90">
+            <br>
+            <label for="">Fecha de Nacimiento: </label> <input type="date">  <label for="">Hora de Nacimiento</label> <input type="time">
+            <br>
+            <label for="">Sexo:</label> <br>
+            <label for="">Masculino</label><input name="sexo" type="radio">
+            <label for="">Femenino</label><input name="sexo" type="radio">
+            <br>
+            <label for="">Color Favorito:</label> <input type="color">
+            <br>
+            <label for="">Música Favorita:</label><br>
+            <label for="">Jazz</label><input type="checkbox">
+            <label for="">Salsa Romántica</label><input type="checkbox">
+            <label for="">Bolero</label><input type="checkbox">
+            <br>
+            <label for="">Email:</label><input type="email">
+            <br>
+            <label for="">Importa tu Foto:</label><input type="file" accept=".jpg">
+            <br>
+            <input type="hidden">
+            <br>
+            <label for="">Contraseña:</label><input type="password">
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>

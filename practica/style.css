@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 25px 80px;
+}
+
+.item{
+  width: 100%;
+  border: 2px solid rgb(211, 210, 210);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+img{
+    width: 100%;
+    transition: transform 0.4s ease;
+}
+
+img:hover{
+    transform: scale(1,1.5);
+}
+
+h1{
+    border-left: 10px solid red;
+    padding-left: 15px;
+    margin-left: 20px;
+}
+
+h2{
+    text-shadow: 2px 2px 2px rgb(195, 195, 195);
+}
+
+
+h1, h2, .menuLogo, footer {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+p{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2:hover{
+    color: red;
+    cursor: pointer;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+}
+
+li{
+    display: inline;
+    padding-left: 25px;
+}
+
+li:hover{
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    font-size: 9rem;
+}
