@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.cursorDelete{
+    cursor: pointer;
+}
+
+.buttonDelete{
+  border: none;
+  background-color: transparent;
+}
+
+.buttonDelete:hover{
+  border: none;
+  background-color: rgba(154, 154, 154, 0.734);
+  border-radius: 30%;
+}
+
+.tablaScroll{
+    width: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
